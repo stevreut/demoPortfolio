@@ -1,4 +1,20 @@
+* {
+    /* Temporary style for test/debugging (TODO) */
+    padding: 1px;
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
 main{
     display: grid;
     grid-template-columns: 1fr 3fr;
+}
+
+.sub-title {
+    color: lime;  /* temporary TODO */
+}
+
+.sub-desc {
+    color: blue; /* temporary TODO */
 }
