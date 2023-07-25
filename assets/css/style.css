@@ -6,9 +6,25 @@
     border-color: red;
 }
 
-nav ul {
+header {
+    background-color: #9e0e0e;
+    padding: 50px;
+}
+
+header h1 {
+    color: red;
+    font-size: larger;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
     justify-content: right;
 }
+
+/* nav ul {
+    justify-content: right;
+} */
 
 nav li {
     display: inline-block;
@@ -20,6 +36,7 @@ body {
     font-size:large;
     line-height: 125%;
     background-color: bisque;
+    margin: 20px;
 }
 
 main {
@@ -34,15 +51,26 @@ main > section {
     border-color: blue;    
 }
 
-/* @media screen and (
-    
-} */
-
 .sub-title {
     color: #1a8b1a;  /* temporary TODO */
     font-weight:700;
 }
 
+@media screen and (max-width: 768px) {  /* TODO - check this number */
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sub-title {
+        color: #08ee08;  /* temporary TODO */
+        font-weight:700;
+        font-style: bold;
+    }
+}
+
+
+
 .sub-desc {
     color: #2424c2; /* temporary TODO */
 }
+
