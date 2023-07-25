@@ -147,6 +147,21 @@ h2 {
         'c4'
         'c5';
     }
+    .sub-title {
+        text-align: left;
+        border-right-style: none;
+        /* margin: 5px 15px 5px 0px; */
+    }
+    /* .sub-desc {
+        width: 100%;
+    } */
+    .work-project img {
+        width: 70%;
+    }
+    .star-project img {
+        width: 100%;
+    }
+    
 }
 
 footer h4 {
