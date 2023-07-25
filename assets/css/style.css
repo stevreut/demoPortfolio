@@ -71,12 +71,17 @@ main {
 h2 {
     font-size: 32px;
     line-height: 115%;
+    margin-right: 7px;
 }
 
 .sub-title {
     /* font-weight:700; */
     text-align: right;
-    margin-right: 15px;
+    /* margin-right: 15px; */
+    border-right-style: solid;
+    border-right-color: var(--body-clr);
+    border-right-width: 6px;
+    margin: 5px 15px 5px 0px;
 }
 
 /* .sub-desc {
