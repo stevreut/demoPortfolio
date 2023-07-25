@@ -6,15 +6,35 @@
     border-color: red;
 }
 
-main{
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-size:large;
+    line-height: 125%;
+    background-color: bisque;
+}
+
+main {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
 
+main > section {
+    border-style: dashed;
+    border-width: 2px;
+    padding:2px;
+    border-color: blue;    
+}
+
+/* @media screen and (
+    
+} */
+
 .sub-title {
-    color: lime;  /* temporary TODO */
+    color: #1a8b1a;  /* temporary TODO */
+    font-weight:700;
 }
 
 .sub-desc {
-    color: blue; /* temporary TODO */
+    color: #2424c2; /* temporary TODO */
 }
