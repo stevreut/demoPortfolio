@@ -56,6 +56,27 @@ main > section {
     font-weight:700;
 }
 
+.sub-desc {
+    color: #2424c2; /* temporary TODO */
+}
+
+.work-proj-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.work-project {
+    background-color: aqua;
+    padding: 30px;
+    color: black;
+    margin: 20px;
+}
+
+.star-project {
+    background-color: aquamarine;
+    color: #081030;
+}
+
 @media screen and (max-width: 768px) {  /* TODO - check this number */
     main {
         display: grid;
@@ -68,9 +89,4 @@ main > section {
     }
 }
 
-
-
-.sub-desc {
-    color: #2424c2; /* temporary TODO */
-}
 
