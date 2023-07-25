@@ -9,25 +9,38 @@
 header {
     background-color: #9e0e0e;
     padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
 }
 
 header h1 {
     color: red;
-    font-size: larger;
-    display: inline-block;
+    font-size: 64px;
+    display: inline;
 }
 
 nav {
-    display: inline-block;
+    display: inline;
+    float: right;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
     justify-content: right;
 }
 
-/* nav ul {
-    justify-content: right;
-} */
-
-nav li {
+nav li a {
     display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: aqua;
 }
 
 body {
