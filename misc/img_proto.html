@@ -7,20 +7,20 @@
     <style>
         :root {
             --almond: #C0B0A0;
+            --main-txt-col:  #305050;
         }
         body {
             background-color: #808080;
             margin: 20px;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 14pt;
-            color: #305050;
+            color: var(--main-txt-col);
         }
         .fenetr {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 500px 300px;
             gap: 15px;
-            /* background-color: white; */
         }
         .fenetr > div {
             background-color: #909099;
@@ -38,9 +38,12 @@
             position: relative;  /* required so that immediate descendants can position absolute */
         }
         .fenetr > div a > div {
+            background-color: var(--almond);
+            padding: 10px;
             position: absolute;
-            bottom: 30px;
+            bottom: 45px;
             left: 10px;
+            color: var(--main-txt-col);
         }
     </style>
 </head>
