@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        :root {
+            --almond: #C0B0A0;
+        }
         body {
             background-color: #808080;
             margin: 20px;
@@ -15,25 +18,42 @@
         .fenetr {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 500px 500px;
+            grid-template-rows: 500px 300px;
             gap: 15px;
             /* background-color: white; */
         }
-        .fenetr div {
+        .fenetr > div {
+            background-color: #909099;
             border-style: solid;
             border-color: black;
-            border-width: 1px;
+            padding: 30px;
+            border-width: 3px;
+        }
+        .fenetr > div img {
+            border-style: none;
+            padding: 20px;
+            background-color:  var(--almond);
+        }
+        .fenetr > div a {
+            position: relative;  /* required so that immediate descendants can position absolute */
+        }
+        .fenetr > div a > div {
+            position: absolute;
+            bottom: 30px;
+            left: 10px;
         }
     </style>
 </head>
 <body>
     <div class="fenetr">
         <div>
-            <img src="https://baconmockup.com/300/300">
-            <div>
-                <h3>ASDF 1</h3>
-                <p>Stuff to say about ASDF 1</p>
-            </div>
+            <a href="http://weather.gov">
+                <img src="https://baconmockup.com/300/300">
+                <div>
+                    <h3>ASDF 1</h3>
+                    <p>Stuff to say about ASDF 1</p>
+                </div>
+            </a>
         </div>
         <div>
             ASDF 2
