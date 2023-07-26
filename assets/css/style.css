@@ -40,6 +40,7 @@ header {
     justify-content: space-between;
     align-items:center;
     flex-wrap: wrap;
+    /* background-image: url("https://baconmockup.com/1024/256"); */
 }
 
 header h1 {
@@ -96,19 +97,42 @@ h2 {
 }
 
 .work-project {
-    background-color: aqua;
+    /* background-color: aqua;
     padding: 30px;
     border-style: solid;
     border-width: 2px;
     border-color: black;
     color: black;
-    margin: 5px;
+    margin: 5px; */
+    /* position: relative; */
+    margin: 8px;
+    background-color: var(--link-and-highlight);
 }
 
-.star-project {
+.work-project a {
+    position:relative;
+}
+
+.work-project>a>div {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: var(--link-and-highlight);
+}
+
+.work-project>a h3 {
+    color: var(--body-clr);
+}
+
+.work-project>a p {
+    color: var(--body-clr);
+}
+
+/* .star-project {
     background-color: aquamarine;
     color: #081030;
-}
+} */
 
 .c1 {
     grid-area: c1;
