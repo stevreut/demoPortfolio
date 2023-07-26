@@ -52,7 +52,7 @@ nav ul {
 
 nav li  {
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     font-size: 12pt;
 }
 
@@ -107,12 +107,14 @@ h2 {
 .work-project>a>div {
     display: inline-block;
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    bottom: 20px;
+    left: 10px;
     background-color: var(--link-and-highlight);
+    padding: 15px;
 }
 
 .work-project>a h3 {
+    font-size: larger;
     color: var(--body-clr);
 }
 
@@ -122,6 +124,7 @@ h2 {
 
 .work-project>a p {
     color: var(--body-clr);
+    margin: 3px 20px 3px 0px;
 }
 
 .work-project>a p:hover {
@@ -210,7 +213,7 @@ h2 {
         margin-bottom: 8px;
     }
     .work-project img {
-        width: 70%;
+        width: 100%;
     }
     .star-project img {
         width: 100%;
