@@ -6,12 +6,11 @@
 } */
 
 :root {
-    --todo-temp-marg: rgb(160, 163, 188);
-    --body-bg: rgb(237,238,245);
-    --body-clr: rgb(72,87,115);
-    --hdr-bg: rgb(50,52,60);
-    --link-and-highlight: rgb(158,202,204);
-    --link-hover: rgb(196, 249, 251);
+    --body-bg: #b3b9c3;
+    --body-clr: #526282;
+    --hdr-bg: #32343c;
+    --link-and-highlight: #71abaf;
+    --link-hover: #c4f9fb;
 }
 
 body {
@@ -61,6 +60,7 @@ nav ul {
 nav li  {
     display: inline-block;
     padding: 5px;
+    font-size: 12pt;
 }
 
 main {
@@ -72,6 +72,7 @@ h2 {
     font-size: 32px;
     line-height: 115%;
     margin-right: 7px;
+    margin-top: 7px;
 }
 
 .sub-title {
@@ -84,8 +85,11 @@ h2 {
     margin: 5px 15px 5px 0px;
 }
 
-/* .sub-desc {
-} */
+.sub-desc {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
 
 .work-proj-grid {
     display: grid;
@@ -96,14 +100,6 @@ h2 {
 }
 
 .work-project {
-    /* background-color: aqua;
-    padding: 30px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    color: black;
-    margin: 5px; */
-    /* position: relative; */
     margin: 8px;
     background-color: var(--link-and-highlight);
 }
@@ -135,11 +131,6 @@ h2 {
 .work-project>a p:hover {
     color: white;
 }
-
-/* .star-project {
-    background-color: aquamarine;
-    color: #081030;
-} */
 
 .c1 {
     grid-area: c1;
