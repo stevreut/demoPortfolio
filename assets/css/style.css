@@ -1,10 +1,9 @@
-* {
-    /* Temporary style for test/debugging (TODO) */
+/* * {
     padding: 1px;
     border-style: solid;
     border-width: 1px;
     border-color: var(--todo-temp-marg);
-}
+} */
 
 :root {
     --todo-temp-marg: rgb(160, 163, 188);
@@ -125,8 +124,16 @@ h2 {
     color: var(--body-clr);
 }
 
+.work-project>a h3:hover {
+    color: white;
+}
+
 .work-project>a p {
     color: var(--body-clr);
+}
+
+.work-project>a p:hover {
+    color: white;
 }
 
 /* .star-project {
